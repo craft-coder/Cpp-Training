@@ -1,0 +1,2 @@
+add_library(TrainingFakes INTERFACE)
+target_include_directories(TrainingFakes INTERFACE ${CMAKE_CURRENT_LIST_DIR})

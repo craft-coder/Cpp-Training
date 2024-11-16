@@ -1,0 +1,2 @@
+add_executable(TrainingLibTests TrainingLibTests.cpp)
+target_link_libraries(TrainingLibTests PRIVATE TrainingLib TrainingFakes GTest::gtest_main)
